@@ -1,0 +1,29 @@
+@import url(common.css);
+@import url(navbar.css);
+@import url(tiles.css);
+@import url(services.css);
+@import url(news.css);
+@import url(footer.css);
+
+
+
+
+
+.services {
+    display: flex;
+    text-align: center;
+}
+
+.service-card {
+    align-items: center;
+    background-color: var(--light-grey);
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.service-card__title {
+    color: var(--brand-color);
+    font-size: 16px;
+    font-weight: 600;
+}
