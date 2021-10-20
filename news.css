@@ -1,0 +1,23 @@
+.news-cards {
+    display: flex;
+    text-align: left;
+}
+
+.news-card {
+    background-color: var(--light-grey);
+    width: calc(100 / 3);
+    padding: 20px;
+    margin: 20px;
+}
+
+.news-card__title {
+    color: var(--brand-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.news-card__date {
+    color: #b4b4b4;
+    font-size: 16px;
+    font-weight: 600;
+}

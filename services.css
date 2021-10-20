@@ -1,0 +1,17 @@
+.services {
+    display: flex;
+    text-align: center;
+}
+
+.service-card {
+    background-color: var(--light-grey);
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.service-card__title {
+    color: var(--brand-color);
+    font-size: 16px;
+    font-weight: 600;
+}

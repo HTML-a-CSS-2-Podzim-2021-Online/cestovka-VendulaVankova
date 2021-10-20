@@ -3,15 +3,13 @@
     --light-grey: rgb(240, 240, 240);
 }
 
-
-* {
-    box-sizing: border-box;
-}
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
 
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    max-width: 1600px;
+    max-width: 1000px;
 	margin: 0 auto;
     padding: 0;
 }

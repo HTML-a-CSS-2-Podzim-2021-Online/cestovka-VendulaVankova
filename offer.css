@@ -1,0 +1,88 @@
+.offer-tiles {
+    display: flex;
+    min-height: 350px;
+}
+
+.tile {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(68, 68, 68);
+    margin: 5px;
+}
+
+.tile--big-palmy {
+    background-image: url(podklady/palmy.jpg);
+}
+
+.tile--small-jezero {
+    background-image: url(podklady/jezero.jpg);
+}
+
+.tile--small-nakole {
+    background-image: url(podklady/nakole.jpg);
+}
+
+.tile--small-podkova {
+    background-image: url(podklady/podkova.jpg);
+}
+
+.tile--small-zatoka {
+    background-image: url(podklady/zatoka.jpg);
+}
+
+.tile--big-lodicka {
+    background-image: url(podklady/lodicka.jpg);
+}
+
+.tile__title--big {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.tile__title--small {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.tile__title, .tile__text {
+    margin: 10px;
+    padding: 10px;
+}
+
+.tile__text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tile__price-tag {
+    background-color: var(--brand-color);
+    border-radius: 2%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px -3px rgb(68, 68, 68);
+    width: 90px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.tile--big {
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 calc(66% - 10px);
+    max-height: 378px;
+}
+
+.meta-tile--small {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 calc(30% - 10px);
+}
+
+.tile--small {
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 100%;
+}

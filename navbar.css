@@ -3,13 +3,14 @@
     display: flex;
 }
 
-.navbar__logo {
+/*.navbar__logo {
     color: var(--brand-color);
     text-transform: uppercase;
     font-weight: 800;
     font-size: 36px;
     padding-left: 20px;
-}
+}*/
+
 
 .navbar__menu {
     list-style: none;
