@@ -15,3 +15,11 @@
     font-size: 16px;
     font-weight: 600;
 }
+
+.service-card--left {
+    margin-left: 0;
+}
+
+.service-card--right {
+    margin-right: 0;
+}

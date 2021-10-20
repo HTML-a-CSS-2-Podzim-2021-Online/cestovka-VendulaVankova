@@ -21,18 +21,19 @@
 .navbar__item {
   display: inline-block;
   font-weight: 600;
+  font-size: 16px;
 }
 
 .navbar__link {
     display: inline-block;
     color: var(--brand-color);
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 20px 20px;
 }
 
 .navbar__link:hover {
   color: white;
   background-color: var(--brand-color);
   text-decoration: none;
-  padding: 20px 30px;
+  padding: 20px 20px;
 }

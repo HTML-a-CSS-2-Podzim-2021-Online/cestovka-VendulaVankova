@@ -8,6 +8,7 @@
     width: calc(100 / 3);
     padding: 20px;
     margin: 20px;
+    margin-top: 10px;
 }
 
 .news-card__title {
@@ -20,4 +21,16 @@
     color: #b4b4b4;
     font-size: 16px;
     font-weight: 600;
+}
+
+.news-card--left {
+    margin-left: 0;
+}
+
+.news-card--right {
+    margin-right: 0;
+}
+
+.news__h2 {
+    margin-top: 40px;
 }

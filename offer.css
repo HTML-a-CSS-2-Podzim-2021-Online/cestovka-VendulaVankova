@@ -10,31 +10,37 @@
     background-size: cover;
     color: white;
     text-shadow: 1px 1px 2px rgb(68, 68, 68);
-    margin: 5px;
+    margin: 10px;
 }
 
 .tile--big-palmy {
     background-image: url(podklady/palmy.jpg);
+    margin-left: 0;
 }
 
 .tile--small-jezero {
     background-image: url(podklady/jezero.jpg);
+    margin-right: 0;
 }
 
 .tile--small-nakole {
     background-image: url(podklady/nakole.jpg);
+    margin-right: 0;
 }
 
 .tile--small-podkova {
     background-image: url(podklady/podkova.jpg);
+    margin-left: 0;
 }
 
 .tile--small-zatoka {
     background-image: url(podklady/zatoka.jpg);
+    margin-left: 0;
 }
 
 .tile--big-lodicka {
     background-image: url(podklady/lodicka.jpg);
+    margin-right: 0;
 }
 
 .tile__title--big {
@@ -61,6 +67,7 @@
     background-color: var(--brand-color);
     border-radius: 2%;
     margin: 10px;
+    margin-top: 15px;
     padding: 10px;
     box-shadow: 0px 0px 5px -3px rgb(68, 68, 68);
     width: 90px;
@@ -72,7 +79,6 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 1 1 calc(66% - 10px);
-    max-height: 378px;
 }
 
 .meta-tile--small {
@@ -85,4 +91,8 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 1 1 100%;
+}
+
+.offer__h2 {
+    margin-top: 20px;
 }
